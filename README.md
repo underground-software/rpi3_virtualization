@@ -1,1 +1,2 @@
 # rpi3_virtualization
+```sudo virt-install        --name Fedora_31_AArch64 --ram 4096 --arch aarch64     --disk size=8 --os-variant fedora28       --location https://dl.fedoraproject.org/pub/fedora/linux/releases/31/Everything/aarch64/os/        --extra-args "inst.ks=https://pwhalen.fedorapeople.org/kickstarts/Fedora-Minimal-AArch64.ks" --machine raspi3 --boot uefi ```
