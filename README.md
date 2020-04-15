@@ -22,7 +22,8 @@ Removing disk 'Fedora_31_AArch64-2.qcow2'                   |    0 B  00:00
 Domain installation does not appear to have been successful.
 If it was, you can restart your domain by running:
   virsh --connect qemu:///system start Fedora_31_AArch64
-otherwise, please restart your installation.```
+otherwise, please restart your installation.
+```
  
 #### Possible solution?
 Looks like a security module issue.
