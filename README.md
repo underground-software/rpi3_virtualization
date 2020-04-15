@@ -10,3 +10,14 @@ This of course implies that the links provided continue to work. Further, this k
 
 ### Bugs:
 Currently the command above does now allow for the installation to go through, as it requires 4 CPUs allocated, where as by default it is only being allocated 2.
+
+```Starting install...
+Retrieving file vmlinuz...                                  |  25 MB  00:01 !!! 
+Retrieving file initrd.img...                               |  65 MB  00:03     
+Allocating 'Fedora_31_AArch64-2.qcow2'                      | 8.0 GB  00:02     
+ERROR    internal error: process exited while connecting to monitor: 2020-04-15T14:54:38.658077Z qemu-system-aarch64: Invalid SMP CPUs 2. The min CPUs supported by machine 'raspi3' is 4
+Removing disk 'Fedora_31_AArch64-2.qcow2'                   |    0 B  00:00     
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start Fedora_31_AArch64
+otherwise, please restart your installation.```
